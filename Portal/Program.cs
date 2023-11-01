@@ -32,7 +32,7 @@ builder.Services
         options =>
             options.UseSqlServer(
                 builder.Configuration.GetConnectionString("DatabaseConnection"),
-                b => b.MigrationsAssembly("Portal"))
+                b => b.MigrationsAssembly("Library"))
     );
 
 builder.Services.AddSwaggerGen();
@@ -50,6 +50,8 @@ builder.Services.AddOpenApiDocument(
             };
         };
     });
+
+
 
 var app = builder.Build();
 

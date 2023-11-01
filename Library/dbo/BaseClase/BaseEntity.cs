@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Library;
 
-[NotMapped]
+
 public class BaseEntity 
 {
     [Key]
@@ -12,12 +12,12 @@ public class BaseEntity
     
     public DateTime CreationDate { get; init; }
     
-    public Guid  FirstAuthorId { get; set; }
+    public Guid?  FirstAuthorId { get; set; }
     [ForeignKey(nameof(FirstAuthorId))]
-    public virtual User FirstAuthor { get; init; }
+    public virtual User? FirstAuthor { get; init; }
     
     public DateTime LastUpdate { get; set; }
-    public Guid LastAuthorId { get; set; }
+    public Guid? LastAuthorId { get; set; }
     [ForeignKey(nameof(LastAuthorId))]
-    public virtual User LastAuthor { get; init; }
+    public virtual User? LastAuthor { get; init; }
 }

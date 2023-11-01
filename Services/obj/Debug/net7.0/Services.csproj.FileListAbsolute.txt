@@ -13,3 +13,4 @@ C:\Users\rkostyuk\RiderProjects\Library\Services\obj\Debug\net7.0\Services.dll
 C:\Users\rkostyuk\RiderProjects\Library\Services\obj\Debug\net7.0\refint\Services.dll
 C:\Users\rkostyuk\RiderProjects\Library\Services\obj\Debug\net7.0\Services.pdb
 C:\Users\rkostyuk\RiderProjects\Library\Services\obj\Debug\net7.0\ref\Services.dll
+C:\Users\rkostyuk\RiderProjects\Library\Services\bin\Debug\net7.0\spa.proxy.json

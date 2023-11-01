@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal", "Portal\Portal.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{2AA29F4D-8A4D-4B9D-9E34-204F4CF8880B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{A97E0706-C72E-450F-9D43-1956612E8C0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{2AA29F4D-8A4D-4B9D-9E34-204F4CF8880B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AA29F4D-8A4D-4B9D-9E34-204F4CF8880B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AA29F4D-8A4D-4B9D-9E34-204F4CF8880B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97E0706-C72E-450F-9D43-1956612E8C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97E0706-C72E-450F-9D43-1956612E8C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97E0706-C72E-450F-9D43-1956612E8C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97E0706-C72E-450F-9D43-1956612E8C0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
